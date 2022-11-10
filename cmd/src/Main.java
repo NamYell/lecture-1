@@ -5,6 +5,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("플러그인이 활성화되었습니다!");
+        getCommand("test").setExecutor(new command());
     }
 
     @Override
