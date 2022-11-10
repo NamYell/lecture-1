@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Command Plugin">
+    <output-path>$PROJECT_DIR$/out/artifacts/Command_Plugin</output-path>
+    <root id="archive" name="Command Plugin.jar">
+      <element id="module-output" name="cmd" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+    </root>
+  </artifact>
+</component>
